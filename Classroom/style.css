@@ -1,0 +1,26 @@
+.parent
+{
+    height: 50%;
+    width: 50%;
+
+   border: 5px  solid black;
+   
+background-color: aqua;
+text-align: center;
+
+    
+}
+.child
+{
+ height: 50%;
+ width: 50%;
+  border:5px solid  salmon ;
+ background-color: azure;
+
+
+}
+
+#container
+{
+   display: flex; 
+}
