@@ -1,0 +1,32 @@
+.navContainer
+{
+    border: solid lavender;
+    border-width: 2px;
+    border: solid red;
+    height: 110px;
+    display: flex;
+    justify-content:space-around ;
+    font-size: 12px;
+    padding: 1em;
+
+}
+body{
+    background-color:black;
+    color: peru;
+}
+.navTag
+{
+padding: 8px;
+border: solid peru;
+border-width:.2px;
+height: 15px;
+}
+.navTag:hover
+{
+padding: 8px;
+border: solid peru;
+background-color:lavenderblush ;
+color: black;
+border-width:.2px;
+height: 15px;
+}

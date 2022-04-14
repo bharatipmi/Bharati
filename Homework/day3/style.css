@@ -1,0 +1,15 @@
+.image_style
+{
+    height: 400px;
+    width: 40%;
+    border: 1px solid green;
+    padding: 5px;
+    margin: 10px;
+    
+}
+.button_style
+{
+    margin: 10px;
+   display: inline-block;
+     border-radius: 10%;
+}

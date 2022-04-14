@@ -1,26 +1,43 @@
-.parent
+.outterContainner
 {
-    height: 50%;
-    width: 50%;
-
-   border: 5px  solid black;
+   border :solid black 1px;
+   height: 50%;
+   background-color: white;
+   size: auto;
+  
    
-background-color: aqua;
-text-align: center;
-
-    
+   
 }
-.child
+.logoimg
 {
- height: 50%;
- width: 50%;
-  border:5px solid  salmon ;
- background-color: azure;
+   border: solid  green 1px;
+   border-radius: 2px;
+   height: 40px;
+}
+  
+.logoText
+{
+   font-size: 45px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 200;
 
+}
+.logoText1
+{
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 150;
 
 }
 
-#container
+
+.textContainer
 {
-   display: flex; 
+
+   margin-top: 50px;
+   text-align: center;
+}
+.body
+{
+   background-color: #FFFFFF;;
 }

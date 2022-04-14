@@ -1,0 +1,43 @@
+
+.item_container
+{  background-color: green;
+    font-size: 25px;
+    text-align: center;
+    
+    height: 50px;
+    width: 70px;
+    margin: 10px;
+
+
+}
+
+.container
+{
+   background-color: yellow;
+    border: 5px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+body
+{
+    background-color: grey;
+}
+.shopping-cart
+{
+    background-color: white;
+    border :15px solid ;
+    border-color: olive;
+    height: 500px;
+    width:400px;
+    border: 5px,solid black;
+    margin:10px;
+    padding: 20px;
+
+
+
+}
