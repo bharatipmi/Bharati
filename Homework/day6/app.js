@@ -108,8 +108,13 @@ String.prototype.reverseString = function()
       revString = revString + this.charAt(i);
    return revString;
 };
- 
-let str= "Per Scholas".toLowerCase();
+
+/*Write a function that takes a string as argument and returns an object where:
+the keys are the characters that occur in the string
+the values are the number of occurrences for each letter, regardless of the case */
+ const countDuplicate= (st)=>
+ {
+let str= st.toLowerCase();
 const myMap = new Map();
 for(let i=0;i< str.length;i++)
 {
@@ -121,10 +126,16 @@ for(let i=0;i< str.length;i++)
     myMap.set(str.charAt(i),1);
 
 }
-for(const[key,value] of myMap)
+/*for(const[key,value] of myMap)
 {
    console.log(key +"=" +value);
-}
+}*/
+//converting map to object
+const obj= Object.fromEntries(myMap);
+ return obj;
+ }
+
+
 
 
 
@@ -147,3 +158,4 @@ console.log(findLongestWord(list1));
   let storeArray=filterLongWords(list,3);
   storeArray.forEach( element=> console.log(element));*/
   //console.log("Per Scolas".reverseString());
+  //console.log(countDuplicate("Bharati"));
