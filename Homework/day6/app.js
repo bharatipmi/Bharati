@@ -99,6 +99,34 @@ const filterLongWords = (array, length) => {
 
 
 }
+/*Add a method reverseString (from question 6) to the object String so that it is possible to call: "Per Scholas".reverseString()*/
+String.prototype.reverseString = function()
+{
+   let len= this.length;
+   let revString = '';
+   for (let i = len-1; i >= 0; i--)
+      revString = revString + this.charAt(i);
+   return revString;
+};
+ 
+let str= "Per Scholas".toLowerCase();
+const myMap = new Map();
+for(let i=0;i< str.length;i++)
+{
+    if(myMap.has(str.charAt(i)))
+   {
+    myMap.set(str.charAt(i),  myMap.get(str.charAt(i))+1);
+   }
+    else
+    myMap.set(str.charAt(i),1);
+
+}
+for(const[key,value] of myMap)
+{
+   console.log(key +"=" +value);
+}
+
+
 
 
   // Sample input to run above
@@ -118,3 +146,4 @@ console.log(findLongestWord(list1));
 
   let storeArray=filterLongWords(list,3);
   storeArray.forEach( element=> console.log(element));*/
+  //console.log("Per Scolas".reverseString());
