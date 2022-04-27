@@ -1,0 +1,31 @@
+body{
+
+    background-image: url('https://cdn.pixabay.com/photo/2014/01/23/21/33/blue-250770__340.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}   
+
+.game-board
+{
+    display:grid;
+    grid-gap:none;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom: 0;
+    grid-template-columns: repeat(3,auto);
+}
+.box
+{
+    border-radius: 50%;
+    background-color: yellow;
+}
+.box:hover
+{
+    border-radius: 50%;
+    background-color: yellow;
+    opacity: 0;
+}
