@@ -8,6 +8,8 @@ window.addEventListener('DOMContentLoaded', documentLoaded);
 function documentLoaded() {
   document.getElementsByClassName("editable-in-place")[0].addEventListener("click", clicked);;
 }
+
+
 function display(valueT)
 {
 console.log("stat" +  valueT);
@@ -19,6 +21,7 @@ startTime = new Date();
   clearInterval(temporizador);
   temporizador = setInterval(updateTime, 1000);
 }
+
 
 function updateTime() {
   "use strict";
