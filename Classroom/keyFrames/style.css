@@ -1,0 +1,12 @@
+.player1{
+    font-weight: 900;
+    font-size: 36px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.pacman{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    padding: 50%;
+}

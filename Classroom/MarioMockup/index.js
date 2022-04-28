@@ -1,0 +1,4 @@
+const attackMario=()=>
+{
+    document.querySelector('.')
+}

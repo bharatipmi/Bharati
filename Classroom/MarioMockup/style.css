@@ -1,0 +1,32 @@
+.screen
+{
+    height: 52vh;
+    border: solid black;
+    background-image: url('https://cdn.wallpapersafari.com/80/71/JKChO6.gif');
+    background-size:cover;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.mario
+{
+
+border-radius: 50%;
+margin-top:58%;
+height:90px;
+width:90px;
+}
+
+.goomba
+{
+
+border-radius: 50%;
+margin-top:58%;
+height:90px;
+width:90px;
+}
+.plumber,.shroom{
+    height:90px;
+    width:100%;
+    border-radius:50%;
+}
